@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body{
+    background-color: rgb(4, 97, 59)
+}
+
+
+#container{
+    line-height: 95%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 5%;
+    display: flex;
+    width: 75%;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+#question{
+    color: white;
+    font-family:'Poppins', serif;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+
+#image{
+    align-content: center;
+    height:500px;
+    font-family: 'Poppins', serif;
+}
+
+#filters {
+  display: -webkit-flex;
+  display: flex;
+  font-family: 'Poppins', serif;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-right: 10px;
+  flex-direction: row;
+  height: 50px;
+}
+
+.filterlink {
+    font-family: 'Poppins', serif;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 10px;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+    font-family:'Poppins', serif;
+    max-height: 65px;
+    width:200px;
+    line-height: 95%;
+}    
+
+#chill {
+    font-family: 'Poppins', serif;
+    background-color: #FF918E;
+}
+#nihilist {
+    background-color: #FC9193;
+    
+}
+#kanye {
+    background-color: #F9959C;
+}
+#beyonce {
+    background-color: #F698A4;
+    font-family: 'Poppins', serif;
+}
+#friends {
+    background-color: #F39BAB;
+}
+#baddie {
+    background-color: #F09EB1;
+}
+#esoteric {
+    background-color: #EDA1B7;
+}
+#artsy {
+    background-color: #EAA4BC;
+}
+#foodie {
+    background-color: #E8A5BE;
+}
+#bae {
+    background-color: #E5A8C2;
+}
+#lift {
+    background-color: #E3ABC6;
+}
+.maindiv{
+    font-family: 'Poppins', serif;
+    display: none;
+    align-content: center;
+}
+
+.active{
+    font-family: 'Poppins', serif;
+    display: inherit;
+    align-content: center;
+}
+
+
+#caption {
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins', serif;
+    font-size: 1.45em;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "captioner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "artsy.js",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Captioner/captioner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Captioner/captioner/issues"
+  },
+  "homepage": "https://github.com/The-Captioner/captioner#readme"
+}
